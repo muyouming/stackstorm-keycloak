@@ -32,6 +32,11 @@
     type: "string"
     required: true
     default: "master"
+  user_realm_name:
+    description: "Keycloak user_realm_name. Default master"
+    type: "string"
+    required: true
+    default: "master"
   verify:
     description: "SSL Verify. Default True"
     type: "boolean"
